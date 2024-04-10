@@ -1,0 +1,346 @@
+@font-face {
+    font-family: "Montserrat_BlackItalic";
+    font-family: "Montserrat_Italic";
+    font-family: "Montserrat_BoldItalic";
+    font-family: "Montserrat_ExtraLightItalic";
+    font-family: "Montserrat_LightItalic";
+    font-family: "Montserrat_MediumItalic";
+    font-family: "Montserrat_Regular";
+    font-family: "Montserrat_SemiBoldItalic";
+    font-family: "Montserrat_ThinItalic";
+    src: url(/fonts/Montserrat-Italic.woff) format("truetype");
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Montserrat_Italic";
+}
+header, body , footer{
+    background-color: #FAFAFB;
+}
+/*Header*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 770px;
+    height: 112px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+.search_png{
+    display: flex;
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+    background-color: #FFFFFF;
+}
+.icon_notification{
+    display: flex;
+    width: 24px;
+    height: 24px;
+}
+.search_line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 24px;
+    width: 80%;
+    height: 36px;
+}
+.search_line-input{
+    width: 164px;
+    height: 24px;
+    border: none;
+    background-color: #FFFFFF;
+}
+.notification{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+/* main */
+main{
+    display: flex;
+    flex-direction: column;
+    width: 770px;
+    height: 1230px;
+}
+/* 1 - Ситуации*/
+.main_div_first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 128px;
+}
+.h1_in_div_first{
+    width: 257px;
+    height: 20px;
+    font-size: 14px;
+}
+
+.slider {
+    width: 280px;
+}
+.slides {
+    display: flex;
+}
+.slide{
+    width: 120px;
+}
+
+/* 2 - Консультация*/
+.second_main_div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 408px;
+    margin: 6px auto;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    height: 376px;
+    background-color: #b4d6e2;
+    border-radius: 16px;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+    height: 72px;
+    padding-top: 20px;
+}
+.second_main_div-button{
+    display: flex;
+    padding-top: 20px;
+}
+.h2_in_div{
+    font-size: 18px;
+}
+.p_div_info{
+    font-size: 13px;
+}
+.robot_png{
+    padding-top: 30px;
+    width: 295px;
+    height: 168px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 40px;
+    border-radius: 24px;
+    background-color: #04B6F5;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+/* 3 - Наши услуги*/
+.div_with_services{
+    display: flex;
+    flex-direction: column;
+}
+.div_third{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 292px;
+}
+.div_third--h3{
+    display: flex;
+}
+.div_frame--1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 328px;
+    height: 110px;
+    padding: 10px;
+}
+.div_frame--2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 328px;
+    height: 110px;
+    padding: 10px;
+}
+.div_frame-situation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 158px;
+    height: 110px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+.div_frame-info{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.div_frame-qustion{
+    width: 158px;
+    height: 110px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+.div_frame-document{
+    width: 158px;
+    height: 110px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+.div_frame-directory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 158px;
+    height: 110px;
+    border-radius: 16px;
+    background-color: #FFFFFF; 
+}
+.div_img-frame--1{
+    width: 38px;
+    height: 38px;
+}
+.div_img-frame--2{
+    width: 38px;
+    height: 38px;
+}
+
+/* 4 - Новости*/
+.h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p5{
+    display: flex;
+    align-items: center;
+    color: #04B6F5;
+    cursor: pointer;
+}
+.div_news-p{
+    font-size: 12px;
+}
+.div_news_capText{
+    font-size: 14px;
+}
+.div_news-cap{
+    display: flex;
+    width: 360px;
+    height: 40px;
+    flex-direction: row;
+}
+.div_news{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 402px;
+}
+.img_newCard{
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+}
+.div_news-newCard{
+    display: flex;
+    flex-direction: column;
+}
+.div_news-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 328px;
+    height: 114px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    margin: 5px;
+}
+.div_news-cards-p{
+    color: #222222;
+    font-size: 12px;
+}
+.div_news-cards-h6{
+    font-size: 14px;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    width: 770px;
+    height: 56px;
+}
+.div_footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.img-in-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 56px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.p-in-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 16px;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    color: #222222;
+}
+
+/* media */
+@media (max-width:320px) {
+    .logo{
+        display: none;
+    }
+    .notification{
+        display: none;
+    }
+}
